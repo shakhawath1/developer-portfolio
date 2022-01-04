@@ -11,7 +11,7 @@ h1 span{
     color: #F47340;
 }
 h2{
-    font-size: 48px;
+    font-size: 40px;
 }
 section{
     height: 500px;
@@ -47,6 +47,33 @@ img{
     background-repeat: no-repeat;
     background-position: right;
 }
-.footer p{
-    text-align: cecter;
+/* Experiance Section */
+.experiance-area{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
+.experiance-item div{
+    box-shadow: 5px 5px 30px gray;
+    height: 400px;
+    border-radius: 5px;
+}
+.experiance-item h3{
+    color: #FF7F3F;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #e9483c, #e77dafb7);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #dd0ab3, #9f6ab9);
+    border-image-slice: 1;
+}
+/* Footer Section */
+
+.footer p{
+    text-align: center;
+}
+
