@@ -10,10 +10,15 @@ h1{
 h1 span{
     color: #F47340;
 }
-.top-banner{
+h2{
+    font-size: 48px;
+}
+section{
     height: 500px;
-    display: flex;
     padding-bottom: 150px;
+}
+.top-banner{
+    display: flex;
     background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -23,7 +28,7 @@ h1 span{
     float: left;
     margin-left: 50px;
 }
-.top-banner img{
+img{
     width: 90%;
     background-repeat: no-repeat;
 }
@@ -35,6 +40,13 @@ h1 span{
     border-radius: 5px;
     padding: 10px 40px;
     background-image: linear-gradient(45deg, #ee4d42, #EF2F88);
-    
 }
-
+/* --Dream Section-- */
+.dream-area{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.footer p{
+    text-align: cecter;
+}
